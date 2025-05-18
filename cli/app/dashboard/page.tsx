@@ -15,10 +15,24 @@ interface Shot {
 }
 
 const sampleCourse: Hole[] = [
-    { number: 1, par: 4, distance: 380 },
-    { number: 2, par: 5, distance: 520 },
-    { number: 3, par: 3, distance: 160 },
-    // ... add all 18 holes
+    { number: 1, par: 4, distance: 356 },
+    { number: 2, par: 4, distance: 335 },
+    { number: 3, par: 5, distance: 453 },
+    { number: 4, par: 3, distance: 180 },
+    { number: 5, par: 4, distance: 317 },
+    { number: 6, par: 4, distance: 340 },
+    { number: 7, par: 4, distance: 308 },
+    { number: 8, par: 3, distance: 120 },
+    { number: 9, par: 4, distance: 297 },
+    { number: 10, par: 5, distance: 453 },
+    { number: 11, par: 3, distance: 159 },
+    { number: 12, par: 4, distance: 369 },
+    { number: 13, par: 4, distance: 355 },
+    { number: 14, par: 4, distance: 345 },
+    { number: 15, par: 3, distance: 135 },
+    { number: 16, par: 5, distance: 455 },
+    { number: 17, par: 5, distance: 487 },
+    { number: 18, par: 4, distance: 354 },
 ];
 
 const Dashboard = () => {
