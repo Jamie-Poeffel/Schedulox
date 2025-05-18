@@ -1,0 +1,21 @@
+{
+  "name": "schedulox",
+  "scripts": {
+    "test": "mocha -r ts-node/register 'test/**/*.test.ts'"
+  },
+  "type": "module",
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "@types/chai": "^5.2.2",
+    "@types/express": "^5",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.15.18",
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
