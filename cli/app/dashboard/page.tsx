@@ -71,8 +71,8 @@ const Dashboard = () => {
     // Statistics calculations
     const fairwaysHit = shots.filter(shot => shot.type === 'fairway').length;
     const greensInRegulation = shots.filter(shot => shot.greenHit).length;
-    const leftMisses = shots.filter(shot => shot.type === 'left').length;
-    const rightMisses = shots.filter(shot => shot.type === 'right').length;
+    // const leftMisses = shots.filter(shot => shot.type === 'left').length;
+    // const rightMisses = shots.filter(shot => shot.type === 'right').length;
     const totalPutts = shots.filter(shot => shot.type === 'putt').length;
 
     return (
